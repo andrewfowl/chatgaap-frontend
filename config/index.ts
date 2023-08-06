@@ -1,13 +1,13 @@
 import type { AppInfo } from '@/types/app'
-export const APP_ID = ''
-export const API_KEY = ''
-export const API_URL = ''
+export const APP_ID = 'f56a5037-2405-4b52-8530-fe8474605010'
+export const API_KEY = 'app-NSfzafnkDQVvTCpygStSsL4r'
+export const API_URL = 'https://api.dify.ai/v1'
 export const APP_INFO: AppInfo = {
-  title: 'Text Generator APP',
+  title: 'ChatGAAP',
   description: 'App description',
-  copyright: '',
+  copyright: 'kabeiri group',
   privacy_policy: '',
-  default_language: 'zh-Hans',
+  default_language: 'en',
 }
 
 export const API_PREFIX = '/api'
