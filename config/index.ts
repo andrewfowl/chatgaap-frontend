@@ -1,7 +1,7 @@
 import type { AppInfo } from '@/types/app'
-export const APP_ID = 'f56a5037-2405-4b52-8530-fe8474605010'
-export const API_KEY = 'app-NSfzafnkDQVvTCpygStSsL4r'
-export const API_URL = 'https://api.dify.ai/v1'
+export const APP_ID = process.env.NEXT_APP_ID
+export const API_KEY = process.env.NEXT_API_KEY
+export const API_URL = process.env.NEXT_PUBLIC_API_URL
 export const APP_INFO: AppInfo = {
   title: 'ChatGAAP',
   description: 'App description',
